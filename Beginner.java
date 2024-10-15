@@ -12,7 +12,8 @@ public class Beginner {
   String[] fortune = {"大吉", "中吉", "吉", "凶"};
   Random luck = new Random();
    int a = luck.nextInt(3);
-  System.out.print("占いの結果が出ました！ \n" + age + "の" + name + "さん、あなたの運命は" + fortune[a] + "です。" );
+  System.out.println("占いの結果が出ました！");
+    System.out.printf("%i歳の%sさん、あなたの運命は%sです。", age ,name, fortune[a] );
   
   
 
